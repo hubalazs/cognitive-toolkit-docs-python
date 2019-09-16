@@ -689,7 +689,7 @@ that takes the initial state as its first argument(s), followed by the inputs.
 
 A simple text classifier, which runs a word sequence through a
 recurrence and then passes the *last* hidden state of the LSTM to a
-softmax classifer, could have this form:
+softmax classifier, could have this form:
 
 ```python
     w = Input(...)                          # word sequence (one-hot vectors)
